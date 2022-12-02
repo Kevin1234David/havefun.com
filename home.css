@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.hero{
+  background: #1E1F1F;
+  min-height: 100vh;
+  width: 100%;
+  color: Black;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+nav .menu-img{
+  width: 160px;
+  cursor: pointer;
+}
+
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: White;
+}
+
+.lamp-con{
+  position: absolute;
+  top: -40px;
+  left: 22%;
+  width: 200px;
+}
+
+.lamp{
+  width: 100%;
+  top: 0;
+}
+
+.light{
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+  margin-left: -10px;
+}
+
+.text h1{
+  color: White;
+  font-size: 50px;
+}
+.text{
+  max-width: 600px;
+  margin-top: 7%;
+  margin-left: 60%
+}
+
+.text h2{
+  color: white;
+  margin-top: 15%;
+  margin-left: 7%;
+}
+
+.icons{
+  color: white;
+  margin-left: 18%;
+}
+
+.home-ent h1{
+  color: white;
+  margin-top: 45vh;
+  margin-left: 45%;
+}
+
+.home-ent button{
+  cursor: pointer;
+  margin-left: 30%;
+  margin-top: 5%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-sizing: content-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.5);
+  width: 80vh;
+  height: 50vh;
+  background-color: #686de0;
+  color: White;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.home-ent button:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.home-ent button:active{
+  opacity: 0;
+  transition: 0.5s;
+}
+
+
+.about img{
+  margin-top: 10%;
+  margin-left: -20%;
+  padding: 10px;
+}
+
+.about h1{
+  color: #fcfc;
+  margin-top: -40%;
+  margin-left: 55%;
+  font-size: 50px;
+}
+
+.about h5{
+  color: #fcfc;
+  margin-top: 40px;
+  margin-left: 55%;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.about p{
+  color: #fcfc;
+  margin-left: 50%;
+  margin-top: -0.5%;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding: 70px;
+}
+
+
+
+.about h4{
+  margin-left: 35%;
+  margin-top: 20%;
+  font-size: 40px;
+  color: White;
+}
+
+.about h6{
+  margin-left: 55%;
+  margin-top: 10%;
+  font-size: 40px;
+  color: #1E1F1F;
+}
